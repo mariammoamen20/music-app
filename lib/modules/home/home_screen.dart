@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class HomeScreen extends StatelessWidget {
+  MusicModel musicModel = MusicModel();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -116,7 +118,12 @@ class HomeScreen extends StatelessWidget {
               InkWell(
                 onTap: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return SongDetailsScreen('assets/images/woman_2.jpeg');
+                    return SongDetailsScreen(
+                      musicModel.images[0],
+                      musicModel.audios[0],
+                      musicModel.titles[0],
+                      musicModel.artists[0],
+                    );
                   }));
                 },
                 child: Card(
@@ -135,7 +142,7 @@ class HomeScreen extends StatelessWidget {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Image.asset(
-                            'assets/images/woman_2.jpeg',
+                            musicModel.images[0],
                             height: 240.0,
                             width: double.infinity,
                             fit: BoxFit.fill,
@@ -163,12 +170,12 @@ class HomeScreen extends StatelessWidget {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           defaultText(
-                            text: 'MAN',
+                            text: 'Pirate King',
                             color: Colors.white,
                             fontSize: 18.0,
                           ),
                           defaultText(
-                            text: 'Sogand',
+                            text: 'Ateez',
                             color: Colors.white,
                             fontSize: 40.0,
                             fontFamily: 'Delight',

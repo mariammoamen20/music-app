@@ -2,28 +2,37 @@
 import 'package:flutter/material.dart';
 
 class MusicModel{
+
+  List<String> audios =[
+    'audio/ateez.mp3',
+    'audio/bts.mp3',
+    'audio/exo.mp3',
+    'audio/sc.mp3',
+    'audio/audio.mp3',
+
+  ];
   List<String> titles = [
-    'Wonderland',
-    'Monster',
-    'Run',
+    'God Menu',
     'Growl',
+    'Black Swan',
+    'Pirate King',
 
   ];
   List<String> artists = [
-    'Ateez',
+    'Stray Kids',
     'EXO',
     'BTS',
-    'EXO',
+    'Ateez',
   ];
   List<String> images = [
-    'assets/images/wonderland.jpeg',
-    'assets/images/exo.jpeg',
-    'assets/images/run.jpg',
+    'assets/images/stray.jpg',
     'assets/images/exo_growl.jpg',
+    'assets/images/bts.jpg',
+    'assets/images/ateez.jpeg',
   ];
   List<IconData> icons = [
     Icons.music_note,
-    Icons.video_camera_back_rounded,
+    Icons.music_note,
     Icons.music_note,
     Icons.music_note,
 

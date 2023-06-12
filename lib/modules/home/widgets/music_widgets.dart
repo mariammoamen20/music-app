@@ -14,6 +14,9 @@ Widget buildMusicItem(int index, context) {
         MaterialPageRoute(
           builder: (context) => SongDetailsScreen(
             musicModel.images[index],
+            musicModel.audios[index],
+            musicModel.titles[index],
+            musicModel.artists[index],
           ),
         ),
       );

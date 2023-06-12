@@ -1,5 +1,4 @@
 import 'package:app/bloc_observer.dart';
-import 'package:app/modules/song_details/song_details_screen.dart';
 import 'package:app/modules/splash/splash_screen.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
