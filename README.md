@@ -1,16 +1,6 @@
-# app
+# music app
 
-A new Flutter project.
+|  Splash Screen       |   Home Screen           |  Song Details Screen     |         
+----------------------:|:-----------------------:|:-------------------------:
+![splash](https://github.com/mariammoamen20/music-app/assets/76426940/2866ac4d-f988-46b9-a17b-8491b0eeb1cb)|![home](https://github.com/mariammoamen20/music-app/assets/76426940/f80fed22-2e24-4214-b30b-f13d80c21381)|![song_details](https://github.com/mariammoamen20/music-app/assets/76426940/5dbf95ae-d328-4125-81d5-a70de874791a)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
